@@ -56,11 +56,10 @@ export const profile = {
         'ECR',
         'Traefik',
         'PostgreSQL',
-        'Razorpay',
-        'Streamlit'
+        'Razorpay'
       ],
       description:
-        'Decentralized, WhatsApp-first home paint preview platform that lets customers get previews of their own houses from anywhere. The chat flow captures images and requirements, triggers payment, assigns a color expert, and returns final previews. Built as event-driven microservices with SNS/SQS, S3 rehosting + presigned uploads, a Streamlit expert console, state-machine orchestration, strategy-based expert allocation, and idempotent webhook handling; deployed on ECS (EC2 launch type) with custom EC2 hosts, Traefik reverse proxy, and ECR.',
+        'Exterior home paint previews are expensive and hard to visualize before spending. Doorstep Palette solves this by letting customers request previews via WhatsApp: they share exterior photos and preferences, pay, and receive expert-rendered previews. The platform uses an event-driven microservices workflow with SNS/SQS, S3 rehosting + presigned uploads, state-machine orchestration, strategy-based expert allocation, and idempotent webhook handling; deployed on ECS (EC2 launch type) with custom EC2 hosts, Traefik reverse proxy, and ECR.',
       links: [{ label: 'GitHub', href: 'https://github.com/zetacollab' }]
     },
     {
