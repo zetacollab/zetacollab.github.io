@@ -3,11 +3,181 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ashok Priyadarshi — Backend Engineer portfolio" />
+    <meta name="description" content="Ashok Priyadarshi - Backend Engineer portfolio" />
     <title>Ashok Priyadarshi</title>
+    <link rel="stylesheet" href="src/index.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="root">
+      <div class="page">
+        <header class="header">
+          <div>
+            <div class="kicker">SDE-2 - Backend Engineer</div>
+            <h1 class="h1">Ashok Priyadarshi</h1>
+            <p class="sub">
+              I build scalable backend services focused on reliability, identity lifecycle, and high-throughput pipelines.
+            </p>
+
+            <div class="ctaRow">
+              <a class="btn primary" href="resume.pdf">Download Resume</a>
+              <a class="btn" href="#projects">Projects</a>
+              <a class="btn" href="#contact">Contact</a>
+            </div>
+
+            <div class="meta">
+              <span>Location: Gurugram, India</span>
+              <span class="dot">|</span>
+              <span>Java | Spring Boot | Kafka | gRPC | PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="rightCol">
+            <div class="card">
+              <div class="cardTitle">Links</div>
+              <div class="cardBody">
+                <div class="links">
+                  <a href="mailto:ashok.bit99@gmail.com">ashok.bit99@gmail.com</a>
+                  <a href="https://www.linkedin.com/in/ashok-priyadarshi-2449b2165">LinkedIn</a>
+                  <a href="https://github.com/zetacollab">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="cardTitle">Highlights</div>
+              <div class="cardBody">
+                <ul class="bullets">
+                  <li>SCIM provisioning + continuous sync with Microsoft Entra</li>
+                  <li>Kafka hardening: error handling + reprocessing at high throughput</li>
+                  <li>End-to-end traceability + non-blocking gRPC retries</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main class="main">
+          <section class="section" id="experience">
+            <h2 class="h2">Experience</h2>
+            <div class="timeline">
+              <div class="timelineItem">
+                <div class="timelineLeft">
+                  <div class="role">SDE-2</div>
+                  <div class="org">Truminds Software Systems</div>
+                  <div class="time">Mar 2024 - Present</div>
+                </div>
+                <div class="timelineRight">
+                  <ul class="bullets">
+                    <li>SCIM-compliant provisioning with Apache Scimple; bulk import &amp; continuous sync from Microsoft Entra.</li>
+                    <li>Reliability: end-to-end tracing, non-blocking gRPC retries, Kafka hardening + reprocessing.</li>
+                    <li>Award: "True Ace" (2024), top 1% performer.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timelineItem">
+                <div class="timelineLeft">
+                  <div class="role">SDE-1</div>
+                  <div class="org">Truminds Software Systems</div>
+                  <div class="time">Jul 2022 - Mar 2024</div>
+                </div>
+                <div class="timelineRight">
+                  <ul class="bullets">
+                    <li>Fine-grained access control for tenant-aware permissions.</li>
+                    <li>Consolidated multiple bot manager services into one scalable module; improved response times.</li>
+                    <li>Bulk CSV onboarding for non-CRM tenants with a flexible schema mapping layer.</li>
+                    <li>Monitoring for 22 scheduled jobs for proactive troubleshooting.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" id="projects">
+            <h2 class="h2">Projects</h2>
+            <div class="grid">
+              <div class="card">
+                <div class="cardTitle">Automated Certificate Mailing API</div>
+                <div class="tagRow">
+                  <span class="pill">Java</span>
+                  <span class="pill">Spring Boot</span>
+                  <span class="pill">JPA</span>
+                  <span class="pill">RDS</span>
+                </div>
+                <div class="cardBody">
+                  <p class="p">CSV-driven workflow to automate certificate mailing at scale.</p>
+                  <div class="cardLinks">
+                    <a href="https://github.com/zetacollab">GitHub</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="cardTitle">Workshop Attendee Multipart API</div>
+                <div class="tagRow">
+                  <span class="pill">Java</span>
+                  <span class="pill">Spring Boot</span>
+                </div>
+                <div class="cardBody">
+                  <p class="p">Multipart ingestion API to store and process workshop attendees.</p>
+                  <div class="cardLinks">
+                    <a href="https://github.com/zetacollab">GitHub</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="cardTitle">Facial Gesture Recognition GUI (CNN)</div>
+                <div class="tagRow">
+                  <span class="pill">Deep Learning</span>
+                  <span class="pill">GUI</span>
+                </div>
+                <div class="cardBody">
+                  <p class="p">Interactive GUI for facial gesture recognition using a CNN model.</p>
+                  <div class="cardLinks">
+                    <a href="https://github.com/zetacollab">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section" id="skills">
+            <h2 class="h2">Skills</h2>
+            <div class="pillWrap">
+              <span class="pill">Java</span>
+              <span class="pill">Spring Boot</span>
+              <span class="pill">Kafka</span>
+              <span class="pill">gRPC</span>
+              <span class="pill">PostgreSQL</span>
+              <span class="pill">Redis</span>
+              <span class="pill">AWS</span>
+              <span class="pill">Maven</span>
+              <span class="pill">Git</span>
+            </div>
+          </section>
+
+          <section class="section" id="publications">
+            <h2 class="h2">Publications</h2>
+            <ul class="bullets">
+              <li>Weld defect localization in friction stir welding process - Welding in the World / Springer (2020)</li>
+              <li>Continuous monitoring and feedback-based real-time control of defects in friction stir welding - Science and Technology of Welding and Joining (2021)</li>
+            </ul>
+          </section>
+
+          <section class="section" id="contact">
+            <h2 class="h2">Contact</h2>
+            <div class="ctaRow">
+              <a class="btn primary" href="mailto:ashok.bit99@gmail.com">Email</a>
+              <a class="btn" href="https://www.linkedin.com/in/ashok-priyadarshi-2449b2165">LinkedIn</a>
+              <a class="btn" href="https://github.com/zetacollab">GitHub</a>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer">(c) 2026 Ashok Priyadarshi</footer>
+      </div>
+    </div>
+    <script type="module" src="src/main.tsx"></script>
   </body>
 </html>

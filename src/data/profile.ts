@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Ashok Priyadarshi',
-  title: 'SDE-2 • Backend Engineer',
+  title: 'SDE-2 - Backend Engineer',
   location: 'Gurugram, India',
   email: 'ashok.bit99@gmail.com',
   github: 'https://github.com/zetacollab',
@@ -11,17 +11,17 @@ export const profile = {
     {
       role: 'SDE-2',
       org: 'Truminds Software Systems',
-      time: 'Mar 2024 – Present',
+      time: 'Mar 2024 - Present',
       bullets: [
         'SCIM-compliant provisioning with Apache Scimple; bulk import & continuous sync from Microsoft Entra.',
         'Reliability: end-to-end tracing, non-blocking gRPC retries, Kafka hardening + reprocessing.',
-        'Award: “True Ace” (2024), top 1% performer.'
+        'Award: "True Ace" (2024), top 1% performer.'
       ]
     },
     {
       role: 'SDE-1',
       org: 'Truminds Software Systems',
-      time: 'Jul 2022 – Mar 2024',
+      time: 'Jul 2022 - Mar 2024',
       bullets: [
         'Fine-grained access control for tenant-aware permissions.',
         'Consolidated multiple bot manager services into one scalable module; improved response times.',
@@ -51,7 +51,7 @@ export const profile = {
     }
   ],
   publications: [
-    'Weld defect localization in friction stir welding process — Welding in the World / Springer (2020)',
-    'Continuous monitoring and feedback-based real-time control of defects in friction stir welding — Science and Technology of Welding and Joining (2021)'
+    'Weld defect localization in friction stir welding process - Welding in the World / Springer (2020)',
+    'Continuous monitoring and feedback-based real-time control of defects in friction stir welding - Science and Technology of Welding and Joining (2021)'
   ]
 }

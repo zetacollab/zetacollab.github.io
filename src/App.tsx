@@ -1,10 +1,11 @@
+import type { ReactNode } from 'react'
 import { profile } from './data/profile'
 
 function Pill({ text }: { text: string }) {
   return <span className="pill">{text}</span>
 }
 
-function Card({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
+function Card({ title, subtitle, children }: { title: string; subtitle?: string; children: ReactNode }) {
   return (
     <div className="card">
       <div className="cardTitle">{title}</div>
@@ -30,9 +31,9 @@ export default function App() {
           </div>
 
           <div className="meta">
-            <span>📍 {profile.location}</span>
-            <span className="dot">•</span>
-            <span>{profile.skills.slice(0, 5).join(' • ')}</span>
+            <span>Location: {profile.location}</span>
+            <span className="dot">|</span>
+            <span>{profile.skills.slice(0, 5).join(' | ')}</span>
           </div>
         </div>
 
@@ -130,7 +131,7 @@ export default function App() {
         </section>
       </main>
 
-      <footer className="footer">© {new Date().getFullYear()} {profile.name}</footer>
+      <footer className="footer">(c) {new Date().getFullYear()} {profile.name}</footer>
     </div>
   )
 }
