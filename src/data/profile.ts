@@ -57,6 +57,7 @@ export const profile = {
         'Traefik',
         'PostgreSQL',
         'Razorpay'
+        'Python'
       ],
       description:
         'Exterior home paint previews are expensive and hard to visualize before spending. Doorstep Palette solves this by letting customers request previews via WhatsApp: they share exterior photos and preferences, pay, and receive expert-rendered previews. The platform uses an event-driven microservices workflow with SNS/SQS, S3 rehosting + presigned uploads, state-machine orchestration, strategy-based expert allocation, and idempotent webhook handling; deployed on ECS (EC2 launch type) with custom EC2 hosts, Traefik reverse proxy, and ECR.',
